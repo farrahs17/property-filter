@@ -1,0 +1,14 @@
+.propertyRecent {
+    margin-bottom: 3rem;
+    max-width: 5rem;
+    .title-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .views {
+        display: flex;
+        align-items: center;
+    }
+
+}

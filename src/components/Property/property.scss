@@ -1,0 +1,47 @@
+.propertyCard {
+    margin-bottom: 3rem;
+    .title-price {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .details {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    
+        &-col {
+            display: flex;
+            flex-direction: column;
+    
+            div {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .actions {
+        display: flex;
+        justify-content: space-between;
+
+        .actions-1 {
+            display: flex;
+            align-items: center;
+            width: 20%;
+            .views {
+                display: flex;
+                align-items: center;
+                width: 50%;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .view {
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+}

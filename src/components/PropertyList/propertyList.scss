@@ -1,0 +1,14 @@
+.noListings {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+    .icon {
+        margin: 0 auto;
+        height: 10em !important;
+        width: 7em !important;
+        display: flex !important;
+    }
+}

@@ -1,0 +1,75 @@
+.navigate {
+    display: flex;
+    align-items: center;
+    font-size: 1.45rem;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+
+.carContainer{
+    display: flex;
+    justify-content: center;
+    .car {
+        width: 80%;
+        height: 500px;
+    
+        img {
+            width: 100%;
+            max-height: 450px;
+        }
+    }
+}
+
+.content {
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+
+    .content-col:nth-of-type(1) {
+        width: 60%;
+    }
+
+    .content-col:nth-of-type(2) {
+        width: 10%;
+        display: flex;
+        height: 10%;
+        justify-content: space-around;
+
+        .views {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 30%;
+        }
+    }
+
+
+     .details {
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+    
+        &-col {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            .row {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                width: 70%;
+
+                p:nth-of-type(1) {
+                    color: rgba(131, 125, 125, 0.933);
+                    font-weight: 700;
+                }
+
+            }
+
+        }
+    }
+}

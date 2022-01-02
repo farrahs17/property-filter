@@ -1,0 +1,17 @@
+.filters {
+    background-color: #e8e8eb;
+    padding: 2rem;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .filter{
+        display: flex;
+        flex-direction: column;
+        p {
+            margin: 8px;
+            font-weight: 600;
+        }
+    }
+}

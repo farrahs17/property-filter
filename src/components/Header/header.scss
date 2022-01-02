@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3%;
+    align-items: center;
+    margin-bottom: 2rem;
+
+    button a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
